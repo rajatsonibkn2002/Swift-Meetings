@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Swift Meetings</title>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Swift Meetings</h2>
+        <form>
+          <div class="user-box">
+            <input id="meetingTitle" type="text" required>
+            <label>Meeting Title</label>
+          </div>
+          <div class="user-box">
+            <input id="invitee1" type="text" name="" required="">
+            <label>Attendee 1 Email</label>
+          </div>
+          <div class="user-box">
+            <input id="invitee2" type="text" name="" required="">
+            <label>Attendee 2 Email</label>
+          </div>
+          <div class="user-box dates">
+            <input type="datetime-local" id="startDate" name="" required="">
+            <label id="startDateLabel">Start Date and Time</label>
+          </div>
+          <div class="user-box dates">
+            <input type="datetime-local" id="endDate" name="" required="">
+            <label id="startDateLabel">End Date and Time</label>
+          </div>
+          <button type="button" id="createBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Submit
+          </button>
+        </form>
+        <div id="previous">Last Booked Meeting: </div>
+      </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

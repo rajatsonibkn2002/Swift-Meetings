@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Swift Meetings",
+    "description": "This extension allows you to easily book meetings",
+    "author": "Rajat Soni",
+    "icons": {"16":"meet.png"},
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Swift Meetings"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
